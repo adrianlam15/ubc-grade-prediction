@@ -1,13 +1,18 @@
+# Program by Adrian, Lam - 10/12/2022
+
 # DESCRIPTION --------------------------------------------------------------------------
 #
 # This program contains the necessary classes, functions, and imports to fetch UBC grade
 # data from https://github.com/DonneyF/ubc-pair-grade-data and displays it as a scatter
-# plot.
-#
+# plot (thanks Donney F!).
+
+
 # FUTURE IMPLEMENATIONS ----------------------------------------------------------------
 # - Machine Learning to predict grades
 # - Add more data
 # - Website (hopefully)
+# - Instead of storing data locally, fetch it from https://github.com/DonneyF/ubc-pair-grade-data
+
 
 # IMPORTS ------------------------------------------------------------------------------
 import pandas as pd
