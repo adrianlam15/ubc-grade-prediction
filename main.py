@@ -91,7 +91,6 @@ class main:
     # STATISTICS FUNCTION
     def stats(self):
         self.df.describe()
-        pass
 
     # MAIN FUNCTION
     def main(self):
