@@ -18,6 +18,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
 
 
 # MAIN CLASS ---------------------------------------------------------------------------
@@ -83,14 +85,26 @@ class main:
             y="Avg",
             kind="scatter",
         )
-        plt.show()  # show plotted graph
-        # for debugging purposes
-        if self.DEBUG_MODE:
-            print(self.df.describe())  # describes the data frame
+        self.X = self.df["Year"]  # returns Year Series object
+        self.y = self.df.Avg
+        # plt.show()  # show plotted graph
 
     # STATISTICS FUNCTION
     def stats(self):
-        self.df.describe()
+        SEED = 42
+        self.TRAIN, self.TEST = train_test_split(
+            self.df, test_size=0.3, random_state=SEED
+        )
+        # plt.show()
+
+    # change name later maybe
+    def predict(self):
+        regressor = LinearRegression()
+        self.X_TRAIN = self.TRAIN["Year"].values.reshape(-1, 1)
+        self.Y_TRAIN = self.TRAIN["Avg"].values.reshape(-1, 1)
+        regressor.fit(self.X_TRAIN, self.Y_TRAIN)
+        print(regressor.intercept_)
+        print(regressor.coef_)
 
     # MAIN FUNCTION
     def main(self):
@@ -98,6 +112,8 @@ class main:
         self.read(CAMPUS, COURSE_CODE)
         self.filter_df()
         self.draw()
+        self.stats()
+        self.predict()
 
 
 # MAIN PROGRAM RUN ---------------------------------------------------------------------
