@@ -17,9 +17,10 @@
 
 
 # IMPORTS ------------------------------------------------------------------------------
-import pandas as pd
+import requests
 import matplotlib.pyplot as plt
 import os
+import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
@@ -32,6 +33,14 @@ class main:
     ):  # takes in path to csvs
         self.PATH = path_to_csvs  # path to csvs
         self.DEBUG_MODE = True  # for debugging purposes
+
+    # REQUEST FUNCTION FOR GETTING CSV FILE FROM GITHUB
+    def request(self):
+        try:
+            pass
+        except:
+            print("Errors: Site request failed. Exiting...")
+            exit()
 
     # SPECIFY CAMPUS AND COURSE CODE FUNCTION
     def specify(self):
@@ -131,6 +140,7 @@ class main:
 
     # MAIN FUNCTION
     def main(self):
+        self.get_csv()
         CAMPUS, COURSE_CODE = self.specify()
         self.read(CAMPUS, COURSE_CODE)
         self.filter_df()
