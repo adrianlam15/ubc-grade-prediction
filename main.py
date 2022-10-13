@@ -6,6 +6,8 @@
 # data from https://github.com/DonneyF/ubc-pair-grade-data and displays it as a scatter
 # plot (thanks Donney F!).
 
+# KNOWN ERROR(S) -----------------------------------------------------------------------
+# - +/- 5% prediction of grade
 
 # FUTURE IMPLEMENATIONS ----------------------------------------------------------------
 # - Machine Learning to predict grades
