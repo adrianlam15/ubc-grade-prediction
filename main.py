@@ -1,4 +1,7 @@
-# Program by Adrian, Lam - 10/12/2022
+# INFO ---------------------------------------------------------------------------------
+# Program by Adrian, Lam
+# CREATION DATE: 10/12/2022
+
 
 # DESCRIPTION --------------------------------------------------------------------------
 #
@@ -6,8 +9,10 @@
 # data from https://github.com/DonneyF/ubc-pair-grade-data and displays it as a scatter
 # plot (thanks Donney F!).
 
+
 # KNOWN ERROR(S) -----------------------------------------------------------------------
-# - +/- 5% prediction of grade
+# - +/- 5% prediction of actual grade calculated
+
 
 # FUTURE IMPLEMENATIONS ----------------------------------------------------------------
 # - Machine Learning to predict grades
@@ -17,10 +22,10 @@
 
 
 # IMPORTS ------------------------------------------------------------------------------
-import requests
 import matplotlib.pyplot as plt
 import os
 import pandas as pd
+import requests
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
@@ -140,7 +145,7 @@ class main:
 
     # MAIN FUNCTION
     def main(self):
-        self.get_csv()
+        self.request()
         CAMPUS, COURSE_CODE = self.specify()
         self.read(CAMPUS, COURSE_CODE)
         self.filter_df()
