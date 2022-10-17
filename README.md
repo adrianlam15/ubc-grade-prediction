@@ -6,4 +6,4 @@ Here's an example of the output for the course CPSC 110:
 <a href="url" ><img style="display: block; 
            margin-left: auto;
            margin-right: auto;
-           width: 30%;" src="example.jpg" height="400" align="center" width="500" ></a>
+           width: 30%;" src="example.jpg"></a>
