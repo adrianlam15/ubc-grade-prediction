@@ -16,7 +16,6 @@ Program that uses a linear regression machine learning model to predict your gra
            margin-left: auto;
            margin-right: auto;
            width: 60%;" src="example.jpg"></a>
-\\
 
 ### How to use
 
