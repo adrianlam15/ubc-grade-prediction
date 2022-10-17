@@ -6,7 +6,7 @@ Data used for program can be found at https://github.com/DonneyF/ubc-pair-grade-
 
 ---
 
-Program that uses a linear regression machine learning model to predict your grade in a course relative to the year. The model is trained on the data from the past 5 years and then tested on the data from the current year. The model is then used to predict the grade of the current year.
+The main emphasis of this project is to provide the user knowledge of past averages of certain courses and also show predictions for given years. Program that uses a linear regression machine learning model to predict your grade in a course relative to the year. The model is trained on the data from the past 5 years and then tested on the data from the current year. The model is then used to predict the grade of the current year.
 
 **MODEL HAS +/- 5% MARGIN OF ERROR.**
 
