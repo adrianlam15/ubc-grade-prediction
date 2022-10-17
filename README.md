@@ -1,6 +1,10 @@
-# UBC Grade Predictions
-
+[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 Data used for program can be found at https://github.com/DonneyF/ubc-pair-grade-data.
+
+## UBC Grade Predictions
+
+---
 
 ### Intro
 
