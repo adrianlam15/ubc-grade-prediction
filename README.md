@@ -4,8 +4,6 @@ Data used for program can be found at https://github.com/DonneyF/ubc-pair-grade-
 
 ## UBC Grade Predictions
 
----
-
 ### Intro
 
 ---
