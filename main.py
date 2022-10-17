@@ -37,7 +37,7 @@ class main:
         self, path_to_csvs="src/ubc-pair-grade-data-master/tableau-dashboard"
     ):  # takes in path to csvs
         self.PATH = path_to_csvs  # path to csvs
-        self.DEBUG_MODE = True  # for debugging purposes
+        self.DEBUG_MODE = False  # for debugging purposes
 
     # REQUEST FUNCTION FOR GETTING CSV FILE FROM GITHUB
     def request(self):
