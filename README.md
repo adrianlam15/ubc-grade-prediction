@@ -1,12 +1,8 @@
 [![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) <br/>
 Data used for program can be found at https://github.com/DonneyF/ubc-pair-grade-data.
 
 ## UBC Grade Predictions
-
-### Intro
-
----
 
 The main emphasis of this project is to provide the user knowledge of past averages of certain courses and also show predictions for given years. Program that uses a linear regression machine learning model to predict your grade in a course relative to the year. The model is trained on the data from the past 5 years and then tested on the data from the current year. The model is then used to predict the grade of the current year.
 
