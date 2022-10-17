@@ -21,4 +21,4 @@ Program that uses a linear regression machine learning model to predict your gra
 
 ---
 
-Program will ask for CAMPUS _(UBCV/UBCO)_ and COURSE CODE _(CPSC 110/CPEN 221/...)_. It will then output the predicted grade for the course, as well as a graph representation of the data.
+Program will ask for CAMPUS _(UBCV/UBCO)_ and COURSE CODE _(CPSC 110/CPEN 221/...)_. User will have to enter year for prediction, then the program will output the predicted grade for the course, as well as a graph representation of the data.
