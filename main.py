@@ -106,6 +106,7 @@ class main:
             x="Year",
             y="Avg",
             kind="scatter",
+            title=f"Average Grade vs. Year for {self.COURSE_DETAIL[0]} {self.COURSE_DETAIL[1]}",
         )
         plt.plot(self.X_TEST, self.avg_pred, color="red", linewidth=2)
         plt.show()
