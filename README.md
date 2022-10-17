@@ -12,10 +12,10 @@ The main emphasis of this project is to provide the user knowledge of past avera
 
 #### Here's an example of the output for the course CPSC 110:
 
-<a href="url" ><img style="display: block; align: center;
+<img style="display: block; align: center;
            margin-left: auto;
            margin-right: auto;
-           width: 60%;" src="example.jpg"></a>
+           width: 60%;" src="example.jpg">
 
 ### How to use
 
