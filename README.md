@@ -1,22 +1,54 @@
-[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) <br/>
-Data used for program can be found at https://github.com/DonneyF/ubc-pair-grade-data.
+# **UBC Grade Predictions**
 
-## UBC Grade Predictions
+![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-The main emphasis of this project is to provide the user knowledge of past averages of certain courses and also show predictions for given years. Program that uses a linear regression machine learning model to predict your grade in a course relative to the year. The model is trained on the data from the past 5 years and then tested on the data from the current year. The model is then used to predict the grade of the current year.
+## | **Getting started**
 
-**MODEL HAS +/- 5% MARGIN OF ERROR.**
+These instructions will help you set up and run the program on your local machine.
 
-#### Here's an example of the output for the course CPSC 110:
+### | **Prerequisites**
 
-<img style="display: block; align: center;
-           margin-left: auto;
-           margin-right: auto;
-           width: 60%;" src="example.jpg">
+- Python 3.6 or later
+- Matplotlib
+- Pandas
+- Requests
+- Sklearn
 
-### How to use
+### | **Installing**
 
----
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your_repo_url
+   ```
+2. Install the required packages
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Program will ask for CAMPUS _(UBCV/UBCO)_ and COURSE CODE _(CPSC 110/CPEN 221/...)_. User will have to enter year for prediction, then the program will output the predicted grade for the course, as well as a graph representation of the data.
+&nbsp;
+
+### | **Usage**
+
+The program takes in a path to the csv files and allows users to specify a campus and course code. The program then filters and displays the data as a scatter plot. The program also uses machine learning to predict grades with a +/- 5% prediction of the actual grade.
+
+### | **Known Errors**
+
++/- 5% prediction of actual grade calculated
+
+### | **Future Implementations**
+
+- Add more data
+- Website
+- Instead of storing data locally, fetch it from https://github.com/DonneyF/ubc-pair-grade-data
+
+### | **Built With**
+
+- Matplotlib - Data visualization library
+- Pandas - Data manipulation library
+- Requests - HTTP library
+- Sklearn - Machine learning library
+
+### | **Author**
+
+- Adrian Lam
